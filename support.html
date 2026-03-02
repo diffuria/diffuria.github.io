@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Diffuria AI</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><circle cx='62' cy='62' r='10' fill='%23e879f9'/><circle cx='62' cy='62' r='5' fill='white'/></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif; background: #0e0620; color: #d0d0d0; line-height: 1.8; }
+        .bg-glow { position: fixed; top: -300px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(232,121,249,0.06) 0%, transparent 70%); pointer-events: none; }
+        nav { position: sticky; top: 0; z-index: 10; padding: 16px 24px; background: rgba(14,6,32,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(192,132,252,0.08); display: flex; align-items: center; gap: 12px; }
+        nav svg { width: 28px; height: 28px; flex-shrink: 0; }
+        nav .brand { font-size: 16px; font-weight: 600; background: linear-gradient(135deg, #c084fc, #e879f9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        nav a { margin-left: auto; color: #888; text-decoration: none; font-size: 13px; transition: color 0.2s; }
+        nav a:hover { color: #e879f9; }
+        .container { position: relative; z-index: 1; max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+        h1 { font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 6px; letter-spacing: -0.5px; }
+        h2 { font-size: 18px; font-weight: 600; color: #fff; margin-top: 36px; margin-bottom: 16px; }
+        p { font-size: 15px; color: #a0a0a0; margin-bottom: 10px; }
+        .subtitle { font-size: 15px; color: #777; margin-bottom: 36px; }
+        form { margin-top: 8px; }
+        label { display: block; font-size: 13px; color: #888; margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+        input, textarea, select {
+            width: 100%; padding: 12px 14px; margin-bottom: 20px;
+            background: rgba(255,255,255,0.03); border: 1px solid rgba(192,132,252,0.12); border-radius: 10px;
+            color: #e0e0e0; font-size: 15px; font-family: inherit; transition: border-color 0.2s;
+        }
+        input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(232,121,249,0.4); background: rgba(232,121,249,0.03); }
+        textarea { min-height: 120px; resize: vertical; }
+        select { appearance: none; cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 8L1 3h10z' fill='%23888'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; }
+        button {
+            width: 100%; padding: 14px; border: none; border-radius: 10px; font-size: 16px;
+            font-weight: 600; cursor: pointer; transition: opacity 0.2s; color: white;
+            background: linear-gradient(135deg, #c084fc, #e879f9, #fb7185);
+        }
+        button:hover { opacity: 0.9; }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .success { display: none; text-align: center; padding: 48px 20px; }
+        .success-icon { width: 64px; height: 64px; margin: 0 auto 20px; background: rgba(78,206,139,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+        .success h2 { color: #4ece8b; margin-top: 0; }
+        .faq { margin-top: 48px; }
+        .faq-item { padding: 18px 0; border-bottom: 1px solid rgba(192,132,252,0.06); }
+        .faq-item strong { color: #e0e0e0; font-size: 15px; display: block; margin-bottom: 6px; }
+        .faq-item p { margin-bottom: 0; font-size: 14px; color: #888; }
+        a { color: #e879f9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <nav>
+        <svg viewBox="0 0 120 120" fill="none"><defs><linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#c084fc"/><stop offset="50%" stop-color="#e879f9"/><stop offset="100%" stop-color="#fb7185"/></linearGradient></defs><path d="M60 20C60 20 84 28 94 46C104 64 98 84 82 94C66 104 44 100 32 88C20 76 22 56 32 42C42 28 60 20 60 20Z" fill="url(#ng)" opacity="0.25"/><path d="M60 34C60 34 76 38 84 50C92 62 88 78 78 86C68 94 52 92 44 82C36 72 38 58 46 48C54 38 60 34 60 34Z" fill="url(#ng)" opacity="0.55"/><circle cx="62" cy="62" r="10" fill="url(#ng)" opacity="0.9"/><circle cx="62" cy="62" r="5" fill="white" opacity="0.95"/></svg>
+        <span class="brand">diffuria</span>
+        <a href="index.html">Home</a>
+    </nav>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">We're here to help. Send us a message and we'll get back to you within 24 hours.</p>
+
+        <form id="supportForm" action="https://formspree.io/f/mgoljwrp" method="POST">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option value="account">Account & Sign In</option>
+                <option value="subscription">Subscription & Billing</option>
+                <option value="credits">Credits & Pricing</option>
+                <option value="generation">Image/Video Generation</option>
+                <option value="bug">Bug Report</option>
+                <option value="feature">Feature Request</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Describe your issue or question..." required></textarea>
+
+            <input type="hidden" name="_subject" value="Diffuria AI Support Request">
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="success" id="successMessage">
+            <div class="success-icon">&#10003;</div>
+            <h2>Message Sent</h2>
+            <p>Thanks for reaching out. We'll get back to you within 24 hours.</p>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <strong>How do credits work?</strong>
+                <p>Each AI generation costs credits. Image generation costs 1&ndash;10 credits depending on the model. Video generation costs 3&ndash;40 credits. You earn free credits daily and can purchase more or subscribe for recurring credits.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>How do I cancel my subscription?</strong>
+                <p>Open Settings on your iPhone &rarr; tap your name &rarr; Subscriptions &rarr; select Diffuria AI &rarr; Cancel Subscription. You'll keep access until the end of your billing period.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Why was my prompt blocked?</strong>
+                <p>AI models include safety filters that block certain types of content. Try rephrasing your prompt with different wording.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>How long does video generation take?</strong>
+                <p>Most videos take 1&ndash;5 minutes. Premium models like Kling 3.0 can take up to 10 minutes. You'll receive a notification when your video is ready.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>I was charged but didn't get credits</strong>
+                <p>Go to Profile &rarr; Restore Purchases. If the issue persists, contact us using the form above.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>Can I use generated content commercially?</strong>
+                <p>Yes. You own the images and videos you create with Diffuria AI and can use them for personal or commercial purposes.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('supportForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = form.querySelector('button');
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            try {
+                await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } });
+                form.style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            } catch {
+                btn.textContent = 'Send Message';
+                btn.disabled = false;
+                alert('Failed to send. Please try again.');
+            }
+        });
+    </script>
+</body>
+</html>
