@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — Diffuria AI</title>
+    <title>Privacy Policy - Diffuria AI</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><circle cx='62' cy='62' r='10' fill='%23e879f9'/><circle cx='62' cy='62' r='5' fill='white'/></svg>">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -14,7 +14,7 @@
         nav .brand { font-size: 16px; font-weight: 600; background: linear-gradient(135deg, #c084fc, #e879f9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         nav a { margin-left: auto; color: #888; text-decoration: none; font-size: 13px; transition: color 0.2s; }
         nav a:hover { color: #e879f9; }
-        .container { position: relative; z-index: 1; max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+        .container { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
         h1 { font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 6px; letter-spacing: -0.5px; }
         h2 { font-size: 18px; font-weight: 600; color: #fff; margin-top: 36px; margin-bottom: 12px; }
         p, li { font-size: 15px; color: #a0a0a0; margin-bottom: 10px; }
@@ -34,45 +34,64 @@
     </nav>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <span class="date">Last updated: March 2, 2026</span>
-        <p>Diffuria AI ("we", "our", or "the app") respects your privacy. This policy explains what data we collect, why, and how we handle it.</p>
-        <h2>1. Data We Collect</h2>
-        <p><strong>Account Information:</strong> When you sign in with Apple, we receive your Apple User ID and, if you choose to share it, your name and email address. We use this solely for authentication and account management.</p>
-        <p><strong>Generated Content:</strong> Images and videos you create are stored locally on your device. When generating content, your text prompts and uploaded images are sent to our servers for AI processing and are not stored after generation is complete.</p>
-        <p><strong>Usage Analytics:</strong> We collect anonymous usage data (features used, generation counts, app sessions) to improve the app experience. This data cannot be used to identify you personally.</p>
-        <p><strong>Purchase Information:</strong> Subscription and purchase data is managed by Apple and our payment partner (Adapty). We receive transaction confirmations but never see your payment details.</p>
-        <p><strong>Device Tokens:</strong> If you enable notifications, we store your device push notification token to send you generation completion alerts.</p>
-        <h2>2. How We Use Your Data</h2>
+        <span class="date">Last updated: March 6, 2026</span>
+        <p>Diffuria AI ("we", "our", or "the app") is an AI image and video creation service. This policy explains what information we collect, how we use it, when we share it, and what controls you have.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p><strong>Device-based account information:</strong> The app currently uses a device-based identifier rather than a traditional username/password account. We store an anonymous account ID, authentication tokens, and security-related identifiers such as App Attest data when available.</p>
+        <p><strong>Generation inputs and media:</strong> When you create content, we may collect prompts, negative prompts, uploaded images, masks, reference videos, and audio files you choose to submit for processing.</p>
+        <p><strong>Generation history and service records:</strong> We store operational records such as prompt text, model used, credit cost, generation status, timestamps, and output URLs so the app can show history, track credits, troubleshoot failures, and operate the service.</p>
+        <p><strong>Purchase and entitlement data:</strong> We receive transaction confirmations, product identifiers, subscription status, and related metadata from Apple and our subscription provider. We do not receive your full payment card details.</p>
+        <p><strong>Usage analytics:</strong> We collect app events such as screen views, generation attempts, credit changes, session data, and similar product analytics tied to your anonymous account ID.</p>
+        <p><strong>Notification data:</strong> If you allow notifications, we store your device push token to send generation and app-related alerts.</p>
+
+        <h2>2. How We Use Information</h2>
         <ul>
-            <li>To authenticate your account and manage your subscription</li>
-            <li>To process your AI generation requests</li>
-            <li>To track your credit balance and usage limits</li>
-            <li>To send push notifications about completed generations</li>
-            <li>To improve app performance and user experience</li>
+            <li>Authenticate your device-based account and keep you signed in</li>
+            <li>Process image, video, editing, and lip-sync requests</li>
+            <li>Track credit balance, purchases, subscriptions, refunds, and usage limits</li>
+            <li>Show generation history and restore service state across launches</li>
+            <li>Send push notifications you request</li>
+            <li>Detect abuse, fraud, outages, and service errors</li>
+            <li>Measure product usage and improve reliability, UX, pricing, and model selection</li>
         </ul>
-        <h2>3. Data Sharing</h2>
-        <p>We do not sell your personal data. We share data only with:</p>
+
+        <h2>3. When We Share Information</h2>
+        <p>We do not sell your personal data. We share information only as needed to operate the service, including with:</p>
         <ul>
-            <li><strong>AI Model Providers (fal.ai):</strong> Your prompts and uploaded images are sent for processing. They are not stored after generation.</li>
-            <li><strong>Adapty:</strong> Subscription management and purchase validation.</li>
-            <li><strong>Supabase:</strong> Backend database for account data, hosted in the US with encryption at rest.</li>
+            <li><strong>AI and storage providers:</strong> Inputs such as prompts, images, audio, and videos may be sent to model and storage providers, including fal.ai-hosted services, to generate results and move files through the processing pipeline.</li>
+            <li><strong>Supabase:</strong> We use Supabase for backend data storage, generation records, credit operations, and analytics events.</li>
+            <li><strong>Apple and Adapty:</strong> We use these services for in-app purchase handling, subscription state, and purchase validation.</li>
+            <li><strong>Service providers and legal requests:</strong> We may disclose information if needed to enforce our terms, protect the service, or comply with law.</li>
         </ul>
-        <h2>4. Data Storage &amp; Security</h2>
-        <p>Generated images and videos are stored only on your device. Account data is stored securely in our cloud database with encryption. Authentication tokens are stored in your device's Keychain.</p>
-        <h2>5. Data Retention</h2>
-        <p>Your account data is retained while your account is active. You can delete all app data from Settings within the app. Generated content is stored locally and deleted when you clear your history or delete the app.</p>
-        <h2>6. Children's Privacy</h2>
-        <p>Diffuria AI is not intended for children under 13. We do not knowingly collect data from children under 13.</p>
-        <h2>7. Your Rights</h2>
+
+        <h2>4. Storage and Retention</h2>
+        <p>Generated media that you save in the app is downloaded to your device. The service also keeps backend records related to generations, credits, purchases, analytics, and account state.</p>
+        <p>Prompt history and saved creations may remain on your device until you remove them. Server-side records are retained for operational, security, accounting, support, and legal purposes for as long as reasonably necessary.</p>
+        <p>Files routed through third-party storage or model providers may also be retained under those providers' operational practices.</p>
+
+        <h2>5. Your Choices and Controls</h2>
         <ul>
-            <li>Delete all your data from within the app (Profile &rarr; Delete All Data)</li>
-            <li>Request a copy of your data by contacting us</li>
-            <li>Opt out of analytics by disabling app tracking in iOS Settings</li>
+            <li>You can clear local history and saved media from within the app.</li>
+            <li>You can use the app's reset/delete flow to clear local app state and create a fresh local identity on that device.</li>
+            <li>The in-app reset flow does not by itself guarantee deletion of all server-side records associated with a prior anonymous account. For server-side deletion requests, contact us through the <a href="support.html">support page</a>.</li>
+            <li>You can disable notifications in iOS Settings at any time.</li>
         </ul>
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this policy from time to time. Significant changes will be communicated through the app or by updating the date above.</p>
-        <h2>9. Contact</h2>
-        <p>Questions? Visit our <a href="support.html">support page</a>.</p>
+
+        <h2>6. Tracking and Advertising</h2>
+        <p>We do not use the app to track you across third-party apps or websites for targeted advertising. The app does not currently rely on App Tracking Transparency for its analytics flow.</p>
+
+        <h2>7. Security</h2>
+        <p>We use reasonable technical and organizational measures to protect data. This includes transport encryption, Keychain storage for sensitive local tokens, and service-side access controls. No system is perfectly secure, and you should avoid uploading content you are not comfortable transmitting to third-party processors.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Diffuria AI is not intended for children under 13, and we do not knowingly collect personal data from children under 13.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this policy from time to time. If we make material changes, we may update the effective date above and, where appropriate, provide notice inside the app.</p>
+
+        <h2>10. Contact</h2>
+        <p>If you have privacy questions or want to request deletion of server-side records tied to your account, use our <a href="support.html">support page</a>.</p>
     </div>
 </body>
 </html>
