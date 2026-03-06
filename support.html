@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support — Diffuria AI</title>
+    <title>Support - Diffuria AI</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><circle cx='62' cy='62' r='10' fill='%23e879f9'/><circle cx='62' cy='62' r='5' fill='white'/></svg>">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -56,7 +56,7 @@
     </nav>
     <div class="container">
         <h1>Support</h1>
-        <p class="subtitle">We're here to help. Send us a message and we'll get back to you within 24 hours.</p>
+        <p class="subtitle">Send us a message and we will reply as soon as we can, typically within 2 business days.</p>
 
         <form id="supportForm" action="https://formspree.io/f/mgoljwrp" method="POST">
             <label for="email">Your Email</label>
@@ -65,10 +65,11 @@
             <label for="topic">Topic</label>
             <select id="topic" name="topic" required>
                 <option value="" disabled selected>Select a topic</option>
-                <option value="account">Account & Sign In</option>
-                <option value="subscription">Subscription & Billing</option>
-                <option value="credits">Credits & Pricing</option>
+                <option value="account">Account &amp; Access</option>
+                <option value="billing">Subscription &amp; Billing</option>
+                <option value="credits">Credits &amp; Purchases</option>
                 <option value="generation">Image/Video Generation</option>
+                <option value="privacy">Privacy &amp; Data Requests</option>
                 <option value="bug">Bug Report</option>
                 <option value="feature">Feature Request</option>
                 <option value="other">Other</option>
@@ -84,40 +85,45 @@
         <div class="success" id="successMessage">
             <div class="success-icon">&#10003;</div>
             <h2>Message Sent</h2>
-            <p>Thanks for reaching out. We'll get back to you within 24 hours.</p>
+            <p>Thanks for reaching out. We will reply as soon as we can.</p>
         </div>
 
         <div class="faq">
             <h2>Frequently Asked Questions</h2>
 
             <div class="faq-item">
-                <strong>How do credits work?</strong>
-                <p>Each AI generation costs credits. Image generation costs 1&ndash;10 credits depending on the model. Video generation costs 3&ndash;40 credits. You earn free credits daily and can purchase more or subscribe for recurring credits.</p>
+                <strong>How does account access work?</strong>
+                <p>Diffuria currently uses a device-based account identifier instead of a traditional username/password login. Resetting app data or reinstalling the app can create a new local identity on that device.</p>
             </div>
 
             <div class="faq-item">
-                <strong>How do I cancel my subscription?</strong>
-                <p>Open Settings on your iPhone &rarr; tap your name &rarr; Subscriptions &rarr; select Diffuria AI &rarr; Cancel Subscription. You'll keep access until the end of your billing period.</p>
+                <strong>How do credits work?</strong>
+                <p>Generation costs vary by model and feature. The app shows the cost before you generate. We may also offer promotional credits such as introductory, referral, or daily credits. Paid credits and subscriptions are handled through Apple.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>I was charged but did not get credits</strong>
+                <p>Go to Profile or Settings and use Restore Purchases. If credits still do not appear, contact us using the form above and include your product name, purchase date, and any App Store receipt screenshot you have.</p>
+            </div>
+
+            <div class="faq-item">
+                <strong>How do I delete my data?</strong>
+                <p>The in-app delete/reset flow clears local app state on your device. If you want server-side records tied to a previous anonymous account removed, contact us using the form above and choose Privacy &amp; Data Requests.</p>
             </div>
 
             <div class="faq-item">
                 <strong>Why was my prompt blocked?</strong>
-                <p>AI models include safety filters that block certain types of content. Try rephrasing your prompt with different wording.</p>
+                <p>Some prompts are blocked by built-in safety filters from the app or model providers. Try rewording the request and avoid illegal, explicit, abusive, or deceptive content.</p>
             </div>
 
             <div class="faq-item">
-                <strong>How long does video generation take?</strong>
-                <p>Most videos take 1&ndash;5 minutes. Premium models like Kling 3.0 can take up to 10 minutes. You'll receive a notification when your video is ready.</p>
-            </div>
-
-            <div class="faq-item">
-                <strong>I was charged but didn't get credits</strong>
-                <p>Go to Profile &rarr; Restore Purchases. If the issue persists, contact us using the form above.</p>
+                <strong>How long does generation take?</strong>
+                <p>Simple image generations are often faster than video or lip-sync jobs. Timing depends on model load and provider queues, so delays can vary.</p>
             </div>
 
             <div class="faq-item">
                 <strong>Can I use generated content commercially?</strong>
-                <p>Yes. You own the images and videos you create with Diffuria AI and can use them for personal or commercial purposes.</p>
+                <p>In general, we do not claim ownership of outputs you generate. You are still responsible for ensuring your prompts, uploads, and outputs do not violate third-party rights, platform rules, or applicable law.</p>
             </div>
         </div>
     </div>
