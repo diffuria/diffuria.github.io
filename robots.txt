@@ -1,0 +1,5 @@
+# Diffuria AI - https://diffuria.github.io
+User-agent: *
+Allow: /
+
+Sitemap: https://diffuria.github.io/sitemap.xml

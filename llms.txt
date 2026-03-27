@@ -1,0 +1,48 @@
+# Diffuria AI
+
+> Diffuria AI is an AI-powered image and video generation app for iPhone, available free on the App Store.
+
+Diffuria AI lets users create stunning AI-generated images, videos, lip sync animations, and artwork using 60+ art styles and 20+ premium AI models. Users type a text prompt, choose a style and model, and the AI generates unique visual content in seconds.
+
+## Key Features
+
+- **AI Image Generation**: Create images from text prompts with photorealistic or artistic quality
+- **AI Video Creation**: Generate videos from text or transform still images into dynamic video clips
+- **Lip Sync Animation**: Upload a portrait and audio to create realistic talking animations
+- **Motion Control**: Direct camera movement, subject motion, and scene transitions in videos
+- **60+ Art Styles**: Photorealistic, anime, oil painting, watercolor, cyberpunk, fantasy, pixel art, 3D render, and more
+- **20+ AI Models**: State-of-the-art models optimized for different creation types, regularly updated
+
+## Use Cases
+
+Social media content, digital artwork, profile pictures, anime art, concept art, photorealistic renders, video clips, talking avatars, character design, wallpapers, illustrations, storyboards, album covers, marketing visuals, fantasy scenes, landscape art, portraits, 3D-style renders, pixel art.
+
+## Platform
+
+- Available on: iOS (iPhone)
+- Price: Free to download with in-app purchases
+- App Store: https://apps.apple.com/app/diffuria-ai-image-video/id6759820957
+
+## Links
+
+- Website: https://diffuria.github.io/
+- AI Image Generator: https://diffuria.github.io/ai-image-generator.html
+- AI Video Generator: https://diffuria.github.io/ai-video-generator.html
+- AI Lip Sync: https://diffuria.github.io/ai-lip-sync.html
+- Privacy Policy: https://diffuria.github.io/privacy.html
+- Terms of Service: https://diffuria.github.io/terms.html
+- Support: https://diffuria.github.io/support.html
+
+## FAQ
+
+**What is Diffuria AI?**
+Diffuria AI is an AI-powered image and video generation app for iPhone. It lets you create stunning artwork, videos, and animations using over 60 art styles and 20+ premium AI models, all from simple text prompts or reference images.
+
+**Is Diffuria AI free?**
+Yes, Diffuria AI is free to download on the App Store. The app includes free credits to get started. Additional credits and subscription plans are available for heavy users.
+
+**What can I create?**
+AI-generated images from text prompts, image-to-video transformations, lip sync animations with audio, artwork in 60+ styles, and motion-controlled video output.
+
+**Can I use creations commercially?**
+Diffuria does not claim ownership of your generated output. You are responsible for ensuring compliance with third-party rights and applicable law.
